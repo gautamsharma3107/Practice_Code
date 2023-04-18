@@ -1,6 +1,7 @@
+// C++Program to display Hello World.
 #include <iostream>
 
 int main()
         {
-            std::cout << "Hello, world!" << std::endl;
+            std::cout << "Hello, world!";
         }
