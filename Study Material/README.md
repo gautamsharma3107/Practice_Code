@@ -263,3 +263,6 @@ This repository contains my comprehensive notes for learning C++ programming and
 - [Online Courses](./Resources/Courses.md)
 - [Practice Problems](./Resources/Practice_Problems.md)
 - [Coding Interview Preparation](./Resources/Interview_Prep.md)
+
+
+I want to replace the content of the file with more elaborated content and examples. Your output shold be everything in a single .md format file. code snipped to be in c++
