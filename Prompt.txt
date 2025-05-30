@@ -1,0 +1,16 @@
+I'm a complete C++ beginner who needs to master Basic Input / Output. Please teach me using this structured approach:
+
+Foundation First: Start with the absolute basics - what is [topic], why does it exist, and what problem does it solve? Use simple analogies I can relate to.
+Build Understanding Step-by-Step:
+
+Show me the syntax with the simplest possible example
+Explain what each part does and why
+Then gradually add complexity with 2-3 progressively harder examples
+
+
+Memory Hooks: Give me memorable mental models, analogies, or mnemonics that will stick. What's the "story" or pattern I should remember?
+Common Mistakes: What are the top 3 mistakes beginners make with [topic]? Show me the wrong way vs. right way side-by-side.
+Practical Coding Patterns: Teach me 2-3 essential code templates/patterns for [topic] that I can reuse. What's the "formula" experienced programmers follow?
+Quick Practice: Give me 1-2 small coding challenges that force me to apply what I learned, with hints if I get stuck.
+
+Make everything hands-on with runnable code examples. Assume I know nothing but am motivated to learn properly.
