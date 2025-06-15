@@ -34,94 +34,94 @@
 - [3.8 Default and Constant Arguments](../../Chapter_3_Control_Flow_and_Functions.md#38-default-and-constant-arguments)
 - [3.9 Function Overloading](../../Chapter_3_Control_Flow_and_Functions.md#39-function-overloading)
 
-## Chapter 4: Arrays and Strings
-- 4.1 Arrays: 1D, 2D, and Multi-dimensional
-- 4.2 Operations on Arrays (Insert, Delete, Search, Traverse)
-- 4.3 Strings in C++
-  - 4.3.1 Character Arrays vs std::string
-  - 4.3.2 String Functions
-  - 4.3.3 Input/Output of Strings
-- 4.4 String Manipulation Problems
+## [Chapter 4: Arrays and Strings](../../Chapter_4_Arrays_and_Strings.md)
+- [4.1 Arrays: 1D, 2D, and Multi-dimensional](../../Chapter_4_Arrays_and_Strings.md#41-arrays-1d-2d-and-multi-dimensional)
+- [4.2 Operations on Arrays (Insert, Delete, Search, Traverse)](../../Chapter_4_Arrays_and_Strings.md#42-operations-on-arrays-insert-delete-search-traverse)
+- [4.3 Strings in C++](../../Chapter_4_Arrays_and_Strings.md#43-strings-in-c)
+  - [4.3.1 Character Arrays vs std::string](../../Chapter_4_Arrays_and_Strings.md#431-character-arrays-vs-stdstring)
+  - [4.3.2 String Functions](../../Chapter_4_Arrays_and_Strings.md#432-string-functions)
+  - [4.3.3 Input/Output of Strings](../../Chapter_4_Arrays_and_Strings.md#433-inputoutput-of-strings)
+- [4.4 String Manipulation Problems](../../Chapter_4_Arrays_and_Strings.md#44-string-manipulation-problems)
 
-## Chapter 5: Pointers and Memory Management
-- 5.1 Introduction to Pointers
-- 5.2 Pointer Arithmetic
-- 5.3 Pointers and Arrays
-- 5.4 Pointers to Functions
-- 5.5 Dynamic Memory Allocation (new, delete)
-- 5.6 Dangling Pointers and Memory Leaks
-- 5.7 Smart Pointers (unique_ptr, shared_ptr, weak_ptr)
-- 5.8 RAII and Scope-Based Resource Management
+## [Chapter 5: Pointers and Memory Management](../../Chapter_5_Pointers_and_Memory_Management.md)
+- [5.1 Introduction to Pointers](../../Chapter_5_Pointers_and_Memory_Management.md#51-introduction-to-pointers)
+- [5.2 Pointer Arithmetic](../../Chapter_5_Pointers_and_Memory_Management.md#52-pointer-arithmetic)
+- [5.3 Pointers and Arrays](../../Chapter_5_Pointers_and_Memory_Management.md#53-pointers-and-arrays)
+- [5.4 Pointers to Functions](../../Chapter_5_Pointers_and_Memory_Management.md#54-pointers-to-functions)
+- [5.5 Dynamic Memory Allocation (new, delete)](../../Chapter_5_Pointers_and_Memory_Management.md#55-dynamic-memory-allocation-new-delete)
+- [5.6 Dangling Pointers and Memory Leaks](../../Chapter_5_Pointers_and_Memory_Management.md#56-dangling-pointers-and-memory-leaks)
+- [5.7 Smart Pointers (unique_ptr, shared_ptr, weak_ptr)](../../Chapter_5_Pointers_and_Memory_Management.md#57-smart-pointers-unique_ptr-shared_ptr-weak_ptr)
+- [5.8 RAII and Scope-Based Resource Management](../../Chapter_5_Pointers_and_Memory_Management.md#58-raii-and-scope-based-resource-management)
 
-## Chapter 6: Object-Oriented Programming
-- 6.1 Introduction to OOP
-- 6.2 Classes and Objects
-- 6.3 Constructors and Destructors
-- 6.4 Access Specifiers (Public, Private, Protected)
-- 6.5 Inheritance
-  - 6.5.1 Single
-  - 6.5.2 Multiple
-  - 6.5.3 Multilevel
-  - 6.5.4 Hierarchical
-  - 6.5.5 Hybrid
-- 6.6 Polymorphism
-  - 6.6.1 Compile-time (Function/Operator Overloading)
-  - 6.6.2 Run-time (Virtual Functions, vtables)
-- 6.7 Encapsulation & Abstraction
-- 6.8 this Pointer
-- 6.9 Friend Functions and Classes
-- 6.10 Static Members
-- 6.11 Object Slicing
+## [Chapter 6: Object-Oriented Programming](../../Chapter_6_Object-Oriented_Programming.md)
+- [6.1 Introduction to OOP](../../Chapter_6_Object-Oriented_Programming.md#61-introduction-to-oop)
+- [6.2 Classes and Objects](../../Chapter_6_Object-Oriented_Programming.md#62-classes-and-objects)
+- [6.3 Constructors and Destructors](../../Chapter_6_Object-Oriented_Programming.md#63-constructors-and-destructors)
+- [6.4 Access Specifiers (Public, Private, Protected)](../../Chapter_6_Object-Oriented_Programming.md#64-access-specifiers-public-private-protected)
+- [6.5 Inheritance](../../Chapter_6_Object-Oriented_Programming.md#65-inheritance)
+  - [6.5.1 Single](../../Chapter_6_Object-Oriented_Programming.md#651-single)
+  - [6.5.2 Multiple](../../Chapter_6_Object-Oriented_Programming.md#652-multiple)
+  - [6.5.3 Multilevel](../../Chapter_6_Object-Oriented_Programming.md#653-multilevel)
+  - [6.5.4 Hierarchical](../../Chapter_6_Object-Oriented_Programming.md#654-hierarchical)
+  - [6.5.5 Hybrid](../../Chapter_6_Object-Oriented_Programming.md#655-hybrid)
+- [6.6 Polymorphism](../../Chapter_6_Object-Oriented_Programming.md#66-polymorphism)
+  - [6.6.1 Compile-time (Function/Operator Overloading)](../../Chapter_6_Object-Oriented_Programming.md#661-compile-time-functionoperator-overloading)
+  - [6.6.2 Run-time (Virtual Functions, vtables)](../../Chapter_6_Object-Oriented_Programming.md#662-run-time-virtual-functions-vtables)
+- [6.7 Encapsulation & Abstraction](../../Chapter_6_Object-Oriented_Programming.md#67-encapsulation--abstraction)
+- [6.8 this Pointer](../../Chapter_6_Object-Oriented_Programming.md#68-this-pointer)
+- [6.9 Friend Functions and Classes](../../Chapter_6_Object-Oriented_Programming.md#69-friend-functions-and-classes)
+- [6.10 Static Members](../../Chapter_6_Object-Oriented_Programming.md#610-static-members)
+- [6.11 Object Slicing](../../Chapter_6_Object-Oriented_Programming.md#611-object-slicing)
 
-## Chapter 7: Advanced C++ Features
-- 7.1 Templates (Function and Class)
-- 7.2 Exception Handling (try, catch, throw)
-- 7.3 Namespaces
-- 7.4 Type Inference with auto
-- 7.5 const, mutable, volatile
-- 7.6 Lambdas and Closures
-- 7.7 Move Semantics & Rvalue References
-- 7.8 Rule of 3 / 5 / 0
-- 7.9 Copy Constructor vs Move Constructor
+## [Chapter 7: Advanced C++ Features](../../Chapter_7_Advanced_CPP_Features.md)
+- [7.1 Templates (Function and Class)](../../Chapter_7_Advanced_CPP_Features.md#71-templates-function-and-class)
+- [7.2 Exception Handling (try, catch, throw)](../../Chapter_7_Advanced_CPP_Features.md#72-exception-handling-try-catch-throw)
+- [7.3 Namespaces](../../Chapter_7_Advanced_CPP_Features.md#73-namespaces)
+- [7.4 Type Inference with auto](../../Chapter_7_Advanced_CPP_Features.md#74-type-inference-with-auto)
+- [7.5 const, mutable, volatile](../../Chapter_7_Advanced_CPP_Features.md#75-const-mutable-volatile)
+- [7.6 Lambdas and Closures](../../Chapter_7_Advanced_CPP_Features.md#76-lambdas-and-closures)
+- [7.7 Move Semantics & Rvalue References](../../Chapter_7_Advanced_CPP_Features.md#77-move-semantics--rvalue-references)
+- [7.8 Rule of 3 / 5 / 0](../../Chapter_7_Advanced_CPP_Features.md#78-rule-of-3--5--0)
+- [7.9 Copy Constructor vs Move Constructor](../../Chapter_7_Advanced_CPP_Features.md#79-copy-constructor-vs-move-constructor)
 
-## Chapter 8: Standard Template Library (STL)
-- 8.1 STL Overview
-- 8.2 Containers
-  - 8.2.1 Vector
-  - 8.2.2 List
-  - 8.2.3 Deque
-  - 8.2.4 Stack
-  - 8.2.5 Queue
-  - 8.2.6 Priority Queue
-  - 8.2.7 Set & Multiset
-  - 8.2.8 Map & Multimap
-- 8.3 Iterators
-- 8.4 Algorithms (sort, find, count, etc.)
-- 8.5 Function Objects (Functors)
-- 8.6 Custom Comparators
+## [Chapter 8: Standard Template Library (STL)](../../Chapter_8_Standard_Template_Library.md)
+- [8.1 STL Overview](../../Chapter_8_Standard_Template_Library.md#81-stl-overview)
+- [8.2 Containers](../../Chapter_8_Standard_Template_Library.md#82-containers)
+  - [8.2.1 Vector](../../Chapter_8_Standard_Template_Library.md#821-vector)
+  - [8.2.2 List](../../Chapter_8_Standard_Template_Library.md#822-list)
+  - [8.2.3 Deque](../../Chapter_8_Standard_Template_Library.md#823-deque)
+  - [8.2.4 Stack](../../Chapter_8_Standard_Template_Library.md#824-stack)
+  - [8.2.5 Queue](../../Chapter_8_Standard_Template_Library.md#825-queue)
+  - [8.2.6 Priority Queue](../../Chapter_8_Standard_Template_Library.md#826-priority-queue)
+  - [8.2.7 Set & Multiset](../../Chapter_8_Standard_Template_Library.md#827-set--multiset)
+  - [8.2.8 Map & Multimap](../../Chapter_8_Standard_Template_Library.md#828-map--multimap)
+- [8.3 Iterators](../../Chapter_8_Standard_Template_Library.md#83-iterators)
+- [8.4 Algorithms (sort, find, count, etc.)](../../Chapter_8_Standard_Template_Library.md#84-algorithms-sort-find-count-etc)
+- [8.5 Function Objects (Functors)](../../Chapter_8_Standard_Template_Library.md#85-function-objects-functors)
+- [8.6 Custom Comparators](../../Chapter_8_Standard_Template_Library.md#86-custom-comparators)
 
-## Chapter 9: File Handling in C++
-- 9.1 Streams (ifstream, ofstream, fstream)
-- 9.2 Reading and Writing Text Files
-- 9.3 Binary File I/O
-- 9.4 File Pointers and Random Access
-- 9.5 Error Handling in File Operations
+## [Chapter 9: File Handling in C++](../../Chapter_9_File_Handling_in_CPP.md)
+- [9.1 Streams (ifstream, ofstream, fstream)](../../Chapter_9_File_Handling_in_CPP.md#91-streams-ifstream-ofstream-fstream)
+- [9.2 Reading and Writing Text Files](../../Chapter_9_File_Handling_in_CPP.md#92-reading-and-writing-text-files)
+- [9.3 Binary File I/O](../../Chapter_9_File_Handling_in_CPP.md#93-binary-file-io)
+- [9.4 File Pointers and Random Access](../../Chapter_9_File_Handling_in_CPP.md#94-file-pointers-and-random-access)
+- [9.5 Error Handling in File Operations](../../Chapter_9_File_Handling_in_CPP.md#95-error-handling-in-file-operations)
 
-## Chapter 10: C++ and System-Level Programming
-- 10.1 Bit Manipulation
-- 10.2 Working with Low-Level Memory
-- 10.3 Inline Assembly in C++
-- 10.4 Interfacing with C Libraries
-- 10.5 Case Study: Memory Layout of Objects
-- 10.6 Multithreading (C++11 and beyond)
-  - 10.6.1 Threads, Mutexes, Locks
-  - 10.6.2 Deadlock and Race Conditions
-  - 10.6.3 Condition Variables
+## [Chapter 10: C++ and System-Level Programming](../../Chapter_10_CPP_and_System_Level_Programming.md)
+- [10.1 Bit Manipulation](../../Chapter_10_CPP_and_System_Level_Programming.md#101-bit-manipulation)
+- [10.2 Working with Low-Level Memory](../../Chapter_10_CPP_and_System_Level_Programming.md#102-working-with-low-level-memory)
+- [10.3 Inline Assembly in C++](../../Chapter_10_CPP_and_System_Level_Programming.md#103-inline-assembly-in-c)
+- [10.4 Interfacing with C Libraries](../../Chapter_10_CPP_and_System_Level_Programming.md#104-interfacing-with-c-libraries)
+- [10.5 Case Study: Memory Layout of Objects](../../Chapter_10_CPP_and_System_Level_Programming.md#105-case-study-memory-layout-of-objects)
+- [10.6 Multithreading (C++11 and beyond)](../../Chapter_10_CPP_and_System_Level_Programming.md#106-multithreading-c11-and-beyond)
+  - [10.6.1 Threads, Mutexes, Locks](../../Chapter_10_CPP_and_System_Level_Programming.md#1061-threads-mutexes-locks)
+  - [10.6.2 Deadlock and Race Conditions](../../Chapter_10_CPP_and_System_Level_Programming.md#1062-deadlock-and-race-conditions)
+  - [10.6.3 Condition Variables](../../Chapter_10_CPP_and_System_Level_Programming.md#1063-condition-variables)
 
-## Chapter 11: C++ in the Real World
-- 11.1 Competitive Programming with C++
-- 11.2 C++ in Game Engines
-- 11.3 C++ for System Software (e.g., Windows, Office)
-- 11.4 C++ in Embedded Systems
-- 11.5 C++ in Finance and Trading Systems
-- 11.6 Designing a Real Project in C++ (e.g., File Manager, Chat App)
+## [Chapter 11: C++ in the Real World](../../Chapter_11_CPP_in_the_Real_World.md)
+- [11.1 Competitive Programming with C++](../../Chapter_11_CPP_in_the_Real_World.md#111-competitive-programming-with-c)
+- [11.2 C++ in Game Engines](../../Chapter_11_CPP_in_the_Real_World.md#112-c-in-game-engines)
+- [11.3 C++ for System Software (e.g., Windows, Office)](../../Chapter_11_CPP_in_the_Real_World.md#113-c-for-system-software-eg-windows-office)
+- [11.4 C++ in Embedded Systems](../../Chapter_11_CPP_in_the_Real_World.md#114-c-in-embedded-systems)
+- [11.5 C++ in Finance and Trading Systems](../../Chapter_11_CPP_in_the_Real_World.md#115-c-in-finance-and-trading-systems)
+- [11.6 Designing a Real Project in C++ (e.g., File Manager, Chat App)](../../Chapter_11_CPP_in_the_Real_World.md#116-designing-a-real-project-in-c-eg-file-manager-chat-app)
