@@ -4,7 +4,6 @@ using namespace std;
 typedef unsigned int ui;
 typedef signed int si;
 typedef long long int lli;
-//typedef long long double lld;
 
 int unique_digit(lli year)
 {
@@ -21,6 +20,7 @@ int unique_digit(lli year)
             break;
         }
 
+        
         
     }
     cout<<year;
