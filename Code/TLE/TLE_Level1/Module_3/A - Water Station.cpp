@@ -2,28 +2,21 @@
 
 
 #include <iostream>
-#include <bits/stdc++.h>
-#include <algorithm>
 using namespace std;
 
-void nearest_station(int n)
-{
-    if((n%5<3) || (n%5==0))
-    {
-        int a= n-(n%5);
-        cout<<a<<"\n";
+int main() {
+    int n;
+    cin >> n;
+    
+    int remainder = n % 5;
+    
+    if (remainder <= 2) {
+        // Round down
+        cout << n - remainder << "\n";
+    } else {
+        // Round up  
+        cout << n + (5 - remainder) << "\n";
     }
-    else
-    {
-        int a= n+(n%5)-1;
-        cout<<a<<"\n";
-    }
-}
-
-int main()
-{
-    int N;
-     cin>>N;
-     nearest_station(N);
-     return 0;
+    
+    return 0;
 }

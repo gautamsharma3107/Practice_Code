@@ -1,14 +1,4 @@
-
-/*
-
-Right half pyramid
-1 
-2 3 
-4 5 6 
-7 8 9 10 
-11 12 13 14 15 
-
-*/
+//https://atcoder.jp/contests/abc305/tasks/abc305_a
 
 
 #include <iostream>
@@ -18,24 +8,42 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin>>n;
+    int t;
+    cin>>t;
     
-for(int i=1;i<=n;i++)
-{
-    for(int j=1;j<=((2*n)-1);j++)
+    for(int i=0;i<t;i++)
     {
-        // best for the if((j<=i)||(j>((2*n)-i)))
-        if((j>=(n-i)&&(j<(((2*n)-1)-(n-i)))))
+        int n;
+        cin>>n;
+        int p[n],s[n];
+        bool result = true;
+        for(int j=0;j<n;j++) cin>>p[j];
+        for(int j=0;j<n;j++) cin>>s[j];
+        std::sort(p, p + n);
+        std::sort(s, s + n);    
+        
+        if(p[0]==s[0])
         {
-            cout<<"*";
+            for(int k=1;k<n;k++)
+            {
+                if((p[k]%p[0]!=0) || (s[k]%s[0]!=0))
+                {
+                    result = false;
+                    break; // Exit immediately when condition fails
+                }
+                // Don't set result = true here, it's already true
+            }
         }
         else
         {
-            cout<<" ";
+            result = false; // First elements don't match
         }
+
+        if(result) 
+        {cout<<"yes"<<endl;}
+        else 
+        {cout<<"No"<<endl;}
     }
-    cout<<endl;
-}   
- return 0;
+
+     return 0;
 }
