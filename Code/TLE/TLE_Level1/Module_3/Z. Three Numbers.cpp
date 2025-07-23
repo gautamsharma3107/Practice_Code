@@ -11,20 +11,24 @@ int main()
     int s,k;
     int p=0;
     cin>>k>>s;
-
-    for(int x=0;x<k;x++)
+    if(k>s)
     {
-        for(int y=0;y<k;y++)
-        {
-            for(int z=0;z<k;z++)
+        k=s;
+    }
 
-            {
-                if((x+y+z)==s)
+    for(int x=0;x<=k;x++)
+    {
+        for(int y=0;y<=k;y++)
+        {
+        int z=s-x-y;
+        if(z<=k && z>=0)
+        {
+            
+            if((x+y+z)==s)
             {
               p++;  
             }
-            }  
-        }
+        }}
     }
     cout<<p;
 }
