@@ -30,5 +30,5 @@ int main()
         cout<<d<<endl;
     }
 
-     return 0;
+     return 0; 
 }
