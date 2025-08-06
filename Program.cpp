@@ -10,37 +10,36 @@ typedef signed int si;
 typedef long long int lli;
 typedef long double ld;
 
-void rotate(ui n)
-{
-    ui cube[n][n];
-    for(ui i=0; i<n; i++)
-   {
-    for(ui j=0; j<n; j++)
-    {
-        cin>>cube[i][j];
-    }
-   }
-   
-   
-   for(ui i=0; i<n; i++)
-   {
-    for(ui j=0; j<n; j++)
-    {
-        cout<<cube[i][j]<<" ";  
-    }
-    cout<<endl;  
-   }
-     return;
-   
-    
-    
-}
+
 
 int main()
 {
-    ui n;
-    cin>>n;
-    //int cube[n][n];
-    rotate(n);
+    int t;
+    cin>>t;
+
+    for(int i = 0;i<t;i++)
+    {
+        int n, limit;
+        cin>>n>>limit;
+        int bag[n];
+        int m=1;
+        int rem = 0;
+        for(int j=0; j<n;j++)
+        {
+            cin>>bag[j];
+            bag[j]=bag[j]*m;
+            if(bag[j]>limit) {
+                
+                
+                rem++;
+                
+            }
+            else{m++;}
+            //cout<<rem<<endl;
+        }
+
+        cout<<rem<<endl;
+    }
+    return 0;
 
 }
