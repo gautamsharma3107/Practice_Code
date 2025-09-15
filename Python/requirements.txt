@@ -1,0 +1,17 @@
+# Trading Bot Dependencies
+# No external dependencies required - uses only Python standard library
+# The bot is designed to work with built-in modules for maximum compatibility
+
+# Optional: If you want to extend with real market data APIs:
+# requests>=2.25.0
+# pandas>=1.3.0
+# numpy>=1.21.0
+# yfinance>=0.1.63
+
+# Optional: For advanced data analysis:
+# matplotlib>=3.4.0
+# seaborn>=0.11.0
+
+# Optional: For web interface:
+# flask>=2.0.0
+# dash>=2.0.0
